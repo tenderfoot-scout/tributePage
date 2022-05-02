@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10% 20px 10%;
+}
+
+li, a, button {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 100px;
+    color: white;
+}
+
+.navbar li {
+    display: inline-block;
+}
+
+section {
+    width: 100%;
+    min-height: 700px;
+    background-image: url("https://wallpaperaccess.com/full/328984.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.content,.primary-msg,.secondary-msg {
+    max-width: 600px;
+    margin: 20px 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+
+#main {
+    text-align: center;
+}
+.container-1, div{
+    display: flex;
+}
+
+.box-1 {
+    flex: 1;
+}
+
+.box-2 {
+    flex: 1;
+}
+
+.logo {
+    width: 100px;
+}
+
+#box-2-img {
+    width: 150px;
+}
